@@ -104,6 +104,10 @@ while True:
                 updatefolderlist()
             else:
                 print('\a') # If no access, emit a bell
+    elif event == curses.KEY_RESIZE:
+        scrSize = screen.getmaxyx()
+        maxH = scrSize[0] -1
+        maxW = scrSize[1] -1
     listfolders()       # Update the folder list after capturing the key stroke
 
 
