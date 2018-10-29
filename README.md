@@ -16,3 +16,5 @@ Usage: Copy this file into a local folder
 ```
 The script will create a temporary file named .bf in your home folder which will contain all the folders that you have browsed to
 If the file gets too big, you can delete the file.
+
+![](animation.gif)
